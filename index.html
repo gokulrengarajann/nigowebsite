@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Nigo Compliance - Simplify your compliance with our powerful productivity suite for Company Secretaries.">
+    <meta name="keywords" content="Compliance, MCA Compliance, Company Secretary Software, Compliance Tracking">
+    <meta name="author" content="Nigo Compliance Private Limited">
+    <title>Nigo Compliance - Simplify Your Compliance</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Styling -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 0;
+        }
+        .hero h1, .hero p, .hero a {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #fff;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #ddd;
+        }
+        .btn {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Compliance Made Easy</h1>
+        <p>Streamline your company compliance with Nigo Compliance Suite</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We simplify compliance management for Company Secretaries by offering a comprehensive productivity suite.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Compliance Tracking</h3>
+                <p>Stay ahead with timely reminders and compliance updates.</p>
+            </div>
+            <div class="service-card">
+                <h3>Client Management</h3>
+                <p>Organize and manage client data efficiently.</p>
+            </div>
+            <div class="service-card">
+                <h3>Automated Notifications</h3>
+                <p>Never miss deadlines with automated alerts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:ask@nigo.app">ask@nigo.app</a></p>
+        <p>Phone: <a href="tel:+919710909727">+91 97109 09727</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nigo Compliance Private Limited. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
